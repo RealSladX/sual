@@ -2,4 +2,4 @@
 
 set -xe
 
-gcc -Wall -o try try.c -lm
+gcc -Wall -Wextra -o try try.c -lm
